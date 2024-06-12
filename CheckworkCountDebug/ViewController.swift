@@ -21,10 +21,27 @@ class ViewController: UIViewController {
     
     @IBAction func plus() {
         //MARK: ① エラーを直そう！
-        number = namber + 1
+        number = number + 1
         
         //MARK: ② エラーを直そう！
-        label.text = number
+        label.text = String(number)
+        
+        if (number > 10) {
+            label.textColor = .red
+        } else {
+            label.textColor = .black
+        }
+    }
+    
+    @IBAction func minus() {
+        number = number - 1
+        label.text = String(number)
+        
+        if (number > 10) {
+            label.textColor = .red
+        } else {
+            label.textColor = .black
+        }
     }
     
     //MARK: ③ 上の①,②を直しただけだとまだ動かない！何でかな？（ヒント: Storyboardで作業が必要だよ！）
