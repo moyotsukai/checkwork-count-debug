@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		EB3DB33F2C1E73B200A484FB /* checkwork_01.png in Resources */ = {isa = PBXBuildFile; fileRef = EB3DB33E2C1E73B200A484FB /* checkwork_01.png */; };
+		EB3DB3432C1E74C600A484FB /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = EB3DB3422C1E74C600A484FB /* README.md */; };
 		EBA711252C19A8C1008B136E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBA711242C19A8C1008B136E /* AppDelegate.swift */; };
 		EBA711272C19A8C1008B136E /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBA711262C19A8C1008B136E /* SceneDelegate.swift */; };
 		EBA711292C19A8C1008B136E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBA711282C19A8C1008B136E /* ViewController.swift */; };
@@ -16,6 +18,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		EB3DB33E2C1E73B200A484FB /* checkwork_01.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = checkwork_01.png; sourceTree = "<group>"; };
+		EB3DB3422C1E74C600A484FB /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		EBA711212C19A8C1008B136E /* CheckworkCountDebug.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CheckworkCountDebug.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EBA711242C19A8C1008B136E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		EBA711262C19A8C1008B136E /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -40,6 +44,8 @@
 		EBA711182C19A8C1008B136E = {
 			isa = PBXGroup;
 			children = (
+				EB3DB33E2C1E73B200A484FB /* checkwork_01.png */,
+				EB3DB3422C1E74C600A484FB /* README.md */,
 				EBA711232C19A8C1008B136E /* CheckworkCountDebug */,
 				EBA711222C19A8C1008B136E /* Products */,
 			);
@@ -125,7 +131,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EB3DB33F2C1E73B200A484FB /* checkwork_01.png in Resources */,
 				EBA711312C19A8C3008B136E /* LaunchScreen.storyboard in Resources */,
+				EB3DB3432C1E74C600A484FB /* README.md in Resources */,
 				EBA7112E2C19A8C3008B136E /* Assets.xcassets in Resources */,
 				EBA7112C2C19A8C1008B136E /* Main.storyboard in Resources */,
 			);
